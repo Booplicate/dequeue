@@ -136,6 +136,7 @@ type PeekError struct {
 
 ```go
 func (self *PeekError) Error() string
+```
 
 ```go
 type PopError struct{}
